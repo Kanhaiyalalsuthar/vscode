@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Contact — Movie & TV Show Tracker</title>
+  <title>Contact — Cooking for Beginners</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,16 +11,16 @@
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="index.html">
-        <div class="logo">M</div>
+        <div class="logo">C</div>
         <div>
-          <div style="font-weight:800">Movie & TV Show Tracker</div>
-          <div style="font-size:.8rem;color:var(--muted)">Keep track of what you watch</div>
+          <div style="font-weight:800">Cooking for Beginners</div>
+          <div style="font-size:.8rem;color:var(--muted)">Learn to cook with confidence</div>
         </div>
       </a>
       <nav class="navlinks">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="tracker.html">Tracker</a>
+        <a href="recipes.html">Recipes</a>
         <a href="resources.html">Resources</a>
         <a href="gallery.html">Gallery</a>
         <a href="contact.html">Contact</a>
@@ -29,51 +29,55 @@
   </header>
 
   <main class="container">
-    <section class="section contact-hero">
+    <section class="section hero">
       <h1>Contact Us</h1>
-      <p class="lead">Have questions, suggestions, or want to share a movie recommendation? Send us a message below.</p>
+      <p class="lead">Have a question or feedback? We’d love to hear from you!</p>
     </section>
 
-    <!-- Contact Form + Illustration -->
-    <section class="section contact-form-section">
-      <div class="contact-grid">
-        <!-- Form -->
-        <div class="form-card">
-          <form action="https://formspree.io/f/myznberg" method="POST">
-            <div class="form-row">
-              <div>
-                <label for="name">Name</label>
-                <input id="name" name="name" type="text" required placeholder="Your name">
-              </div>
-              <div>
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" required placeholder="you@example.com">
-              </div>
+    <!-- Contact Layout -->
+    <section class="section contact-grid">
+      <!-- Contact Form -->
+      <div class="form-card">
+        <h2>Send a Message</h2>
+        <form action="https://formspree.io/f/myznberg" method="POST">
+          <div class="form-row">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Your name">
             </div>
-
-            <div class="form-row-full">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="6" required placeholder="Write your message..."></textarea>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com">
             </div>
+          </div>
 
-            <div style="margin-top:1rem;display:flex;gap:.6rem;flex-wrap:wrap;align-items:center">
-              <button type="submit" class="btn btn-primary">Send message</button>
-              <a href="index.html" class="btn btn-ghost" style="text-decoration:none">Back to home</a>
-            </div>
-          </form>
-          <p style="color:var(--muted);margin-top:.75rem">You’ll receive an email reply via the address you provide. Thank you — we’ll get back soon.</p>
-        </div>
+          <div class="form-row-full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required placeholder="Write your message..."></textarea>
+          </div>
 
-        <!-- Illustration -->
-        <div class="contact-illustration" style="background-image:url('https://images.unsplash.com/photo-1517602302552-471fe67acf66?q=80&w=1200&auto=format&fit=crop'); border-radius:12px;">
-          <div class="overlay"><p style="color:white;font-size:1.25rem;padding:1rem;">Share your love for movies & shows with us!</p></div>
-        </div>
+          <div style="margin-top:1rem;display:flex;gap:.6rem;flex-wrap:wrap;align-items:center">
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <a href="index.html" class="btn btn-ghost" style="text-decoration:none">Back to home</a>
+          </div>
+        </form>
+      </div>
+
+      <!-- Contact Info (Your Section) -->
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p><strong>Name:</strong> Kanhaiya lal suthar</p>
+        <p><strong>Enrollment Number:</strong> 2024/17660</p>
+        <p><strong>Section:</strong> F</p>
+        <img src="my photo.jpg.jpg"
+          alt="Contact Image" width="100%" height="200"
+          style="object-fit: cover; border-radius: 10px; box-shadow: 0 8px 20px rgba(0,0,0,0.1);" />
       </div>
     </section>
 
     <!-- Footer -->
     <footer class="site-footer">
-      <div class="container"><small>© Movie & TV Show Tracker</small></div>
+      <div class="container"><small>© Cooking for Beginners</small></div>
     </footer>
   </main>
 </body>
